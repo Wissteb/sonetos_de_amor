@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+body {
+  background: url("img/corazon-1.svg") repeat-y top left ,
+  url("img/corazon-2.svg") repeat-y top right;
+  background-size: 145px;
+  background-color:#E9C9DE;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+div {
+  border: black solid;
+  margin: 25px 170px;
+  font-weight: bold;
+}
+
+div.manchas {
+  background: url("img/manchas.png");
+  color: white;
+}
+
+div.fuego {
+  background: url("img/fuego.svg") no-repeat bottom right, 
+  url("img/fuego.svg") no-repeat bottom left, url("img/tallos.jpg");
+  color:yellow;
+}
+
+div.ojo {
+  background:  url("img/ojo.svg") no-repeat center, url("img/hexagonos.jpg");
+  background-size: contain, auto;
+  color: #8A1915;
+}
+
+div.caballo {
+  padding-bottom: 50px;
+  background: url("img/caballo.svg") repeat-x bottom, 
+  url("img/estrellas.png") repeat;
+  background-size: 100px, auto;
+  color: green;
+}
